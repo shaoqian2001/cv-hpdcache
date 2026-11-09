@@ -353,6 +353,9 @@ import hpdcache_pkg::*;
         .evt_rtab_rollback_o,
         .evt_stall_refill_o,
         .evt_stall_o,
+        .evt_mshr_full_o                   (/* unused */),
+        .evt_rtab_full_o                   (/* unused */),
+        .evt_wbuf_full_o                   (/* unused */),
 
         .wbuf_empty_o,
 

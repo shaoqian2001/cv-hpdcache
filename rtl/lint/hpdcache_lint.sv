@@ -214,6 +214,9 @@ module hpdcache_lint
       .evt_rtab_rollback_o   (  /* unused */),
       .evt_stall_refill_o    (  /* unused */),
       .evt_stall_o           (  /* unused */),
+      .evt_mshr_full_o       (  /* unused */),
+      .evt_rtab_full_o       (  /* unused */),
+      .evt_wbuf_full_o       (  /* unused */),
 
       .wbuf_empty_o,
 
